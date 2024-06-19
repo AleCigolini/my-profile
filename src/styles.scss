@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100%;
+}
+
+footer {
+  visibility: hidden;
+}
+
+@media (min-width: 768px) {
+  footer {
+    visibility: visible;
+  }
+}

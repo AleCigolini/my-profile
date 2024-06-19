@@ -1,0 +1,45 @@
+{
+  "hello": "Hello, Alessandro Cigolini here!! \uD83D\uDE01",
+  "tabs": {
+    "about": "About",
+    "work": "Work",
+    "resume": "Resumé"
+  },
+  "intermediate-systems-analyst": {
+    "title": "Intermediate Systems Analist",
+    "period-job": "2024-03 - Current"
+  },
+  "intermediate-software-developer-three": {
+    "title": "Intermediate Software Developer - Level III",
+    "period-job": "2022-05 - 2024-02"
+  },
+  "intermediate-software-developer-one": {
+    "title": "Intermediate Software Developer - Level I",
+    "period-job": "2021-09 - 2022-05"
+  },
+  "systems-support-attendant": {
+    "title": "Systems Support Attendant",
+    "period-job": "2019 - 2021"
+  },
+  "computer-systems-technician": {
+    "title": "Computer Systems Technician",
+    "period-job": "2018 - 2019"
+  },
+  "internship-computer-systems-technician": {
+    "title": "Internship - Computer Systems Technician",
+    "period-job": "2017 - 2018"
+  },
+  "publicacoes-online-company": "Publicações Online",
+  "unimed-company": "Unimed Vales do Taquari e Rio Pardo",
+  "ciamed-company": "CIAMED Distribuidora de Medicamentos",
+  "about": {
+    "first-paragraph": "Known as \"Ale,\" I enjoy practicing sports, working, studying, and constantly evolving in my pursuit of new knowledge and specializations.",
+    "second-paragraph": "Immersed in technology since childhood, today I am certain that I am doing what I love (even with the daily challenges).",
+    "third-paragraph": "Among my educational qualifications, I hold a degree in Systems Analysis and Development and I am taking courses to achieve proficiency in the English language.",
+    "fourth-paragraph": "Currently, I am working as a Intermediate Systems Analyst."
+  },
+  "resume": {
+    "first-paragraph": "Resumé:",
+    "complementary-education": "Complementary Education:"
+  }
+}

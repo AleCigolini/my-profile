@@ -1,0 +1,14 @@
+.about {
+  .text {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
