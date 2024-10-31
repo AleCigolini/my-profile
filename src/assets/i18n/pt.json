@@ -5,9 +5,13 @@
     "work": "Trabalho",
     "resume": "Currículo"
   },
+  "senior-software-developer": {
+    "title": "Desenvolvedor de Software Sênior",
+    "period-job": "10/2024 - Atual"
+  },
   "intermediate-systems-analyst": {
     "title": "Analista de Sistemas Pleno",
-    "period-job": "03/2024 - Atual"
+    "period-job": "03/2024 - 09/2024"
   },
   "intermediate-software-developer-three": {
     "title": "Desenvolvedor de Software - Nível III",
@@ -29,14 +33,15 @@
     "title": "Estágio - Técnico em Sistemas de Informática",
     "period-job": "2017 - 2018"
   },
+  "contabilizei-company": "Contabilizei",
   "publicacoes-online-company": "Publicações Online",
   "unimed-company": "Unimed Vales do Taquari e Rio Pardo",
   "ciamed-company": "CIAMED Distribuidora de Medicamentos",
   "about": {
     "first-paragraph": "Conhecido como \"Ale\", gosto de praticar esportes, trabalhar, estudar e estar em constante evolução na busca por novos conhecimentos e especializações.",
     "second-paragraph": "Desde criança envolvido com tecnologia, hoje tenho a certeza de que faço o que me dá prazer(mesmo com os perrengues do dia a dia).",
-    "third-paragraph": "Dentre as formações, possuo graduação em Análise e Desenvolvimento de Sistemas e cursos buscando o conhecimento e fluência na língua inglesa.",
-    "fourth-paragraph": "Atualmente estou atuando como Analista de Sistemas Pleno."
+    "third-paragraph": "Dentre as formações, possuo graduação em Análise e Desenvolvimento de Sistemas e estou cursando Pós-Graduação em Arquitetura de Software.",
+    "fourth-paragraph": "Atualmente estou atuando como Desenvolvedor de Software Sênior."
   },
   "resume": {
     "first-paragraph": "Segue currículo:",

@@ -5,9 +5,13 @@
     "work": "Work",
     "resume": "Resumé"
   },
+  "senior-software-developer": {
+    "title": "Senior Software Developer",
+    "period-job": "2024-10 - Current"
+  },
   "intermediate-systems-analyst": {
     "title": "Intermediate Systems Analist",
-    "period-job": "2024-03 - Current"
+    "period-job": "2024-03 - 2024-09"
   },
   "intermediate-software-developer-three": {
     "title": "Intermediate Software Developer - Level III",
@@ -29,14 +33,15 @@
     "title": "Internship - Computer Systems Technician",
     "period-job": "2017 - 2018"
   },
+  "contabilizei-company": "Contabilizei",
   "publicacoes-online-company": "Publicações Online",
   "unimed-company": "Unimed Vales do Taquari e Rio Pardo",
   "ciamed-company": "CIAMED Distribuidora de Medicamentos",
   "about": {
     "first-paragraph": "Known as \"Ale,\" I enjoy practicing sports, working, studying, and constantly evolving in my pursuit of new knowledge and specializations.",
     "second-paragraph": "Immersed in technology since childhood, today I am certain that I am doing what I love (even with the daily challenges).",
-    "third-paragraph": "Among my educational qualifications, I hold a degree in Systems Analysis and Development and I am taking courses to achieve proficiency in the English language.",
-    "fourth-paragraph": "Currently, I am working as a Intermediate Systems Analyst."
+    "third-paragraph": "Among my educational qualifications, I hold a degree in Systems Analysis and Development and I am pursuing a graduate degree in Software Architecture.",
+    "fourth-paragraph": "Currently, I am working as a Senior Software Developer."
   },
   "resume": {
     "first-paragraph": "Resumé:",
