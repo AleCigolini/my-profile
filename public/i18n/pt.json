@@ -1,0 +1,116 @@
+{
+  "brand": "ale@portfolio:~",
+  "nav": {
+    "stack": "stack",
+    "experience": "experiência",
+    "projects": "projetos",
+    "education": "formação",
+    "contact": "contato"
+  },
+  "hero": {
+    "terminal-title": "ale@portfolio — bash",
+    "whoami": "$ whoami",
+    "name": "Alessandro Cigolini",
+    "subtitle": "Desenvolvedor Full Stack Sênior · Arquitetura de Software",
+    "desc": "Mais de 6 anos construindo ecossistemas escaláveis com Kotlin, Java e Spring. Migração de dados em larga escala, modernização de cloud (GCP/AWS) e arquiteturas limpas.",
+    "cta-projects": "ver projetos",
+    "cta-contact": "entrar em contato",
+    "cta-resume": "baixar currículo"
+  },
+  "stack": {
+    "label": "// stack",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "cloud": "Cloud & Infra",
+    "architecture": "Arquitetura"
+  },
+  "experience": {
+    "label": "// experiência",
+    "current": "atual",
+    "senior-software-developer-description": "Construção do fluxo de migração de empresas na plataforma. Serviço em Clean Architecture para Painel Administrativo e Painel do Cliente. Especialista interino apoiando 6 devs em estratégias, métricas e modernização de cloud com foco em redução de custos.",
+    "intermediate-systems-analyst-description": "Migração diária de grande volume de dados com Spring Batch. Integração com terceiros via OAuth2. Observabilidade de logs e microsserviços. Docker, AWS EC2 e ECS. TDD e BDD."
+  },
+  "projects": {
+    "label": "// projetos",
+    "one": {
+      "name": "Migração · Contabilizei Onboarding",
+      "tech": "Kotlin · Spring · Clean Arch · REST · GCP",
+      "desc": "Serviço de migração de empresas com APIs REST para painel administrativo e do cliente, e estrutura de dados para gestão de pendências do processo.",
+      "gain": "→ Fluxo de migração estruturado e auditável, com visibilidade de pendências para o cliente e o time de operações."
+    },
+    "two": {
+      "name": "Pipeline de Dados · Spring Batch",
+      "tech": "Java · Spring Batch · Docker · AWS · OAuth2",
+      "desc": "Pipeline de migração diária de grande volume de dados. Integração OAuth2 com terceiros, observabilidade e containers gerenciados com Docker, AWS EC2 e ECS.",
+      "gain": "→ Processo de integração de dados robusto, observável e containerizado para operação em larga escala."
+    },
+    "three": {
+      "name": "Liderança Técnica · Onboarding",
+      "tech": "GCP · Kotlin · Sonar · Python · Vue",
+      "desc": "Especialista interino do time de Onboarding. Definição de estratégias técnicas, métricas de qualidade e modernização da infraestrutura cloud focada em redução de custos operacionais.",
+      "gain": "→ Modernização da infra cloud do time com foco explícito em eficiência de custos."
+    }
+  },
+  "education": {
+    "label": "// formação",
+    "postgrad-degree": "Pós-Graduação em Arquitetura de Software",
+    "postgrad-meta": "FIAP · 2024 – 2025",
+    "graduation-degree": "Graduação em Análise e Desenvolvimento de Sistemas",
+    "graduation-meta": "Univates · 2020 – 2023",
+    "courses-label": "cursos & certificações",
+    "course-1": "Formação Apache Kafka · Alura",
+    "course-2": "Formação Spring Framework · Alura",
+    "course-3": "Formação Kotlin · Alura",
+    "course-4": "Formação DevOps · Alura",
+    "course-5": "SOLID com Java · Alura",
+    "course-6": "Formação Python · Alura",
+    "course-7": "Oracle & SQL · Udemy"
+  },
+  "contact": {
+    "label": "// contato",
+    "desc": "Aberto a oportunidades remotas e projetos de arquitetura."
+  },
+  "footer": "Alessandro Cigolini · 2025",
+  "tabs": {
+    "about": "Sobre",
+    "work": "Trabalho",
+    "resume": "Currículo"
+  },
+  "senior-software-developer": {
+    "title": "Desenvolvedor de Software Sênior",
+    "period-job": "10/2024 - Atual"
+  },
+  "intermediate-systems-analyst": {
+    "title": "Analista de Sistemas Pleno",
+    "period-job": "03/2024 - 09/2024"
+  },
+  "intermediate-software-developer-three": {
+    "title": "Desenvolvedor de Software - Nível III",
+    "period-job": "05/2022 - 02/2024"
+  },
+  "intermediate-software-developer-one": {
+    "title": "Desenvolvedor de Software - Nível I",
+    "period-job": "09/2021 - 05/2022"
+  },
+  "systems-support-attendant": {
+    "title": "Atendente de Suporte de TI",
+    "period-job": "2019 - 2021"
+  },
+  "computer-systems-technician": {
+    "title": "Técnico em Sistemas de Informática",
+    "period-job": "2018 - 2019"
+  },
+  "internship-computer-systems-technician": {
+    "title": "Estágio - Técnico em Sistemas de Informática",
+    "period-job": "2017 - 2018"
+  },
+  "contabilizei-company": "Contabilizei",
+  "publicacoes-online-company": "Publicações Online",
+  "unimed-company": "Unimed Vales do Taquari e Rio Pardo",
+  "ciamed-company": "CIAMED Distribuidora de Medicamentos",
+  "resume": {
+    "cv-url": "https://drive.google.com/file/d/1tHGCF1iqZGmKN1jrmbdNXZo1_-qHFZTC/view?usp=sharing",
+    "complementary-education": "Cursos complementares:",
+    "alura": "Alura"
+  }
+}

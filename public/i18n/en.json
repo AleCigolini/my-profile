@@ -1,0 +1,116 @@
+{
+  "brand": "ale@portfolio:~",
+  "nav": {
+    "stack": "stack",
+    "experience": "experience",
+    "projects": "projects",
+    "education": "education",
+    "contact": "contact"
+  },
+  "hero": {
+    "terminal-title": "ale@portfolio — bash",
+    "whoami": "$ whoami",
+    "name": "Alessandro Cigolini",
+    "subtitle": "Senior Full Stack Developer · Software Architecture",
+    "desc": "6+ years building scalable ecosystems with Kotlin, Java and Spring. Large-scale data migration, cloud modernization (GCP/AWS) and clean architectures.",
+    "cta-projects": "view projects",
+    "cta-contact": "get in touch",
+    "cta-resume": "download resumé"
+  },
+  "stack": {
+    "label": "// stack",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "cloud": "Cloud & Infra",
+    "architecture": "Architecture"
+  },
+  "experience": {
+    "label": "// experience",
+    "current": "current",
+    "senior-software-developer-description": "Building the company migration flow on the platform. Clean Architecture service for the Admin Panel and Client Panel. Interim specialist supporting 6 devs on strategy, metrics and cloud modernization focused on cost reduction.",
+    "intermediate-systems-analyst-description": "Daily migration of large data volumes with Spring Batch. Third-party integration via OAuth2. Log and microservice observability. Docker, AWS EC2 and ECS. TDD and BDD."
+  },
+  "projects": {
+    "label": "// projects",
+    "one": {
+      "name": "Migration · Contabilizei Onboarding",
+      "tech": "Kotlin · Spring · Clean Arch · REST · GCP",
+      "desc": "Company migration service with REST APIs for the admin and client panels, and a data structure to manage process pending items.",
+      "gain": "→ Structured, auditable migration flow with visibility of pending items for the client and the operations team."
+    },
+    "two": {
+      "name": "Data Pipeline · Spring Batch",
+      "tech": "Java · Spring Batch · Docker · AWS · OAuth2",
+      "desc": "Daily migration pipeline for large data volumes. OAuth2 integration with third parties, observability and managed containers with Docker, AWS EC2 and ECS.",
+      "gain": "→ Robust, observable and containerized data integration process for large-scale operation."
+    },
+    "three": {
+      "name": "Tech Leadership · Onboarding",
+      "tech": "GCP · Kotlin · Sonar · Python · Vue",
+      "desc": "Interim specialist for the Onboarding team. Definition of technical strategies, quality metrics and cloud infrastructure modernization focused on reducing operational costs.",
+      "gain": "→ Cloud infrastructure modernization for the team with explicit focus on cost efficiency."
+    }
+  },
+  "education": {
+    "label": "// education",
+    "postgrad-degree": "Postgraduate Degree in Software Architecture",
+    "postgrad-meta": "FIAP · 2024 – 2025",
+    "graduation-degree": "Bachelor in Systems Analysis and Development",
+    "graduation-meta": "Univates · 2020 – 2023",
+    "courses-label": "courses & certifications",
+    "course-1": "Apache Kafka Certification · Alura",
+    "course-2": "Spring Framework Certification · Alura",
+    "course-3": "Kotlin Certification · Alura",
+    "course-4": "DevOps Certification · Alura",
+    "course-5": "SOLID with Java · Alura",
+    "course-6": "Python Certification · Alura",
+    "course-7": "Oracle & SQL · Udemy"
+  },
+  "contact": {
+    "label": "// contact",
+    "desc": "Open to remote opportunities and architecture projects."
+  },
+  "footer": "Alessandro Cigolini · 2025",
+  "tabs": {
+    "about": "About",
+    "work": "Work",
+    "resume": "Resumé"
+  },
+  "senior-software-developer": {
+    "title": "Senior Software Developer",
+    "period-job": "2024-10 - Current"
+  },
+  "intermediate-systems-analyst": {
+    "title": "Intermediate Systems Analist",
+    "period-job": "2024-03 - 2024-09"
+  },
+  "intermediate-software-developer-three": {
+    "title": "Intermediate Software Developer - Level III",
+    "period-job": "2022-05 - 2024-02"
+  },
+  "intermediate-software-developer-one": {
+    "title": "Intermediate Software Developer - Level I",
+    "period-job": "2021-09 - 2022-05"
+  },
+  "systems-support-attendant": {
+    "title": "Systems Support Attendant",
+    "period-job": "2019 - 2021"
+  },
+  "computer-systems-technician": {
+    "title": "Computer Systems Technician",
+    "period-job": "2018 - 2019"
+  },
+  "internship-computer-systems-technician": {
+    "title": "Internship - Computer Systems Technician",
+    "period-job": "2017 - 2018"
+  },
+  "contabilizei-company": "Contabilizei",
+  "publicacoes-online-company": "Publicações Online",
+  "unimed-company": "Unimed Vales do Taquari e Rio Pardo",
+  "ciamed-company": "CIAMED Distribuidora de Medicamentos",
+  "resume": {
+    "cv-url": "https://drive.google.com/file/d/1rd5cCjchA9bV-ZsxOcG_HsvrYOP5wZDc/view?usp=sharing",
+    "complementary-education": "Complementary courses:",
+    "alura": "Alura"
+  }
+}

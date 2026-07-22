@@ -1,0 +1,159 @@
+<nav>
+  <a href="#top" class="nav-brand">{{ "brand" | translate }}</a>
+  <ul class="nav-links">
+    <li><a href="#stack">{{ "nav.stack" | translate }}</a></li>
+    <li><a href="#experiencia">{{ "nav.experience" | translate }}</a></li>
+    <li><a href="#projetos">{{ "nav.projects" | translate }}</a></li>
+    <li><a href="#formacao">{{ "nav.education" | translate }}</a></li>
+    <li><a href="#contato">{{ "nav.contact" | translate }}</a></li>
+  </ul>
+  <div class="lang-row">
+    <button type="button" class="lb" [class.active]="currentLang() === 'pt'" (click)="switchLang('pt')">PT</button>
+    <button type="button" class="lb" [class.active]="currentLang() === 'en'" (click)="switchLang('en')">EN</button>
+  </div>
+</nav>
+
+<section class="hero" id="top">
+  <div class="tw">
+    <div class="tbar">
+      <div class="dot dr"></div><div class="dot dy"></div><div class="dot dg"></div>
+      <span class="ttitle">{{ "hero.terminal-title" | translate }}</span>
+    </div>
+    <div class="tbody">
+      <div class="tline"><span class="prompt">~</span><span class="cmd"> {{ "hero.whoami" | translate }}</span><span class="cursor"></span></div>
+      <h1>{{ "hero.name" | translate }}</h1>
+      <p class="subtitle">{{ "hero.subtitle" | translate }}</p>
+      <p class="desc">{{ "hero.desc" | translate }}</p>
+      <div class="btns">
+        <a href="#projetos" class="bp">{{ "hero.cta-projects" | translate }}</a>
+        <a href="#contato" class="bo">{{ "hero.cta-contact" | translate }}</a>
+        <a [href]="'resume.cv-url' | translate" target="_blank" rel="noopener noreferrer" class="bo">{{ "hero.cta-resume" | translate }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="inner">
+    <div class="slabel">{{ "stack.label" | translate }}</div>
+    <div class="sgrid">
+      <div class="sg"><div class="sgt">{{ "stack.backend" | translate }}</div><div class="tags"><span class="tag">Kotlin</span><span class="tag">Java</span><span class="tag">Python</span><span class="tag">Spring</span><span class="tag">Kafka</span><span class="tag">Docker</span><span class="tag">K8s</span></div></div>
+      <div class="sg"><div class="sgt">{{ "stack.frontend" | translate }}</div><div class="tags"><span class="tag">Vue</span><span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">JS</span><span class="tag">CSS</span></div></div>
+      <div class="sg"><div class="sgt">{{ "stack.cloud" | translate }}</div><div class="tags"><span class="tag">GCP</span><span class="tag">AWS EC2</span><span class="tag">AWS ECS</span><span class="tag">Spring Batch</span><span class="tag">NoSQL</span></div></div>
+      <div class="sg"><div class="sgt">{{ "stack.architecture" | translate }}</div><div class="tags"><span class="tag">Clean Arch</span><span class="tag">Hexagonal</span><span class="tag">DDD</span><span class="tag">SOLID</span><span class="tag">TDD</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="experiencia">
+  <div class="inner">
+    <div class="slabel">{{ "experience.label" | translate }}</div>
+    <div class="elist">
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "contabilizei-company" | translate }}</span><span class="ecurrent">{{ "experience.current" | translate }}</span></div>
+          <div class="erole">{{ "senior-software-developer.title" | translate }}</div>
+          <div class="eperiod">{{ "senior-software-developer.period-job" | translate }}</div>
+          <p class="edesc">{{ "experience.senior-software-developer-description" | translate }}</p>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "publicacoes-online-company" | translate }}</span></div>
+          <div class="erole">{{ "intermediate-systems-analyst.title" | translate }}</div>
+          <div class="eperiod">{{ "intermediate-systems-analyst.period-job" | translate }}</div>
+          <p class="edesc">{{ "experience.intermediate-systems-analyst-description" | translate }}</p>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "publicacoes-online-company" | translate }}</span></div>
+          <div class="erole">{{ "intermediate-software-developer-three.title" | translate }}</div>
+          <div class="eperiod">{{ "intermediate-software-developer-three.period-job" | translate }}</div>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "publicacoes-online-company" | translate }}</span></div>
+          <div class="erole">{{ "intermediate-software-developer-one.title" | translate }}</div>
+          <div class="eperiod">{{ "intermediate-software-developer-one.period-job" | translate }}</div>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "unimed-company" | translate }}</span></div>
+          <div class="erole">{{ "systems-support-attendant.title" | translate }}</div>
+          <div class="eperiod">{{ "systems-support-attendant.period-job" | translate }}</div>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "ciamed-company" | translate }}</span></div>
+          <div class="erole">{{ "computer-systems-technician.title" | translate }}</div>
+          <div class="eperiod">{{ "computer-systems-technician.period-job" | translate }}</div>
+        </div>
+      </div>
+      <div class="ei">
+        <div class="edot"></div>
+        <div>
+          <div class="ec-hdr"><span class="ecomp">{{ "ciamed-company" | translate }}</span></div>
+          <div class="erole">{{ "internship-computer-systems-technician.title" | translate }}</div>
+          <div class="eperiod">{{ "internship-computer-systems-technician.period-job" | translate }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="inner">
+    <div class="slabel">{{ "projects.label" | translate }}</div>
+    <div class="pgrid">
+      <div class="pc"><div class="pname">{{ "projects.one.name" | translate }}</div><div class="ptech">{{ "projects.one.tech" | translate }}</div><p class="pdesc">{{ "projects.one.desc" | translate }}</p><div class="pgain">{{ "projects.one.gain" | translate }}</div></div>
+      <div class="pc"><div class="pname">{{ "projects.two.name" | translate }}</div><div class="ptech">{{ "projects.two.tech" | translate }}</div><p class="pdesc">{{ "projects.two.desc" | translate }}</p><div class="pgain">{{ "projects.two.gain" | translate }}</div></div>
+      <div class="pc"><div class="pname">{{ "projects.three.name" | translate }}</div><div class="ptech">{{ "projects.three.tech" | translate }}</div><p class="pdesc">{{ "projects.three.desc" | translate }}</p><div class="pgain">{{ "projects.three.gain" | translate }}</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="formacao">
+  <div class="inner">
+    <div class="slabel">{{ "education.label" | translate }}</div>
+    <div class="egrid">
+      <div class="eitem"><div class="edegree">{{ "education.postgrad-degree" | translate }}</div><div class="emeta">{{ "education.postgrad-meta" | translate }}</div></div>
+      <div class="eitem"><div class="edegree">{{ "education.graduation-degree" | translate }}</div><div class="emeta">{{ "education.graduation-meta" | translate }}</div></div>
+    </div>
+    <div class="clabel">{{ "education.courses-label" | translate }}</div>
+    <ul class="clist">
+      <li>{{ "education.course-1" | translate }}</li>
+      <li>{{ "education.course-2" | translate }}</li>
+      <li>{{ "education.course-3" | translate }}</li>
+      <li>{{ "education.course-4" | translate }}</li>
+      <li>{{ "education.course-5" | translate }}</li>
+      <li>{{ "education.course-6" | translate }}</li>
+      <li>{{ "education.course-7" | translate }}</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="inner">
+    <div class="slabel">{{ "contact.label" | translate }}</div>
+    <div class="ccard">
+      <p class="cdesc">{{ "contact.desc" | translate }}</p>
+      <div class="clinks">
+        <a href="mailto:cigolini.ale@gmail.com" class="cl"><span>→</span> cigolini.ale@gmail.com</a>
+        <a href="https://www.linkedin.com/in/alessandrocigolini/" target="_blank" rel="noopener noreferrer" class="cl"><span>→</span> linkedin.com/in/alessandrocigolini</a>
+        <a href="https://github.com/AleCigolini" target="_blank" rel="noopener noreferrer" class="cl"><span>→</span> github.com/AleCigolini</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>{{ "footer" | translate }}</footer>
